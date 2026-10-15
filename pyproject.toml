@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "limenia"
+version = "0.1.0"
+description = "A toolkit for atomistic interface construction"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Yuxuan Tang", email = "y.x.tang2002@gmail.com"}]
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    "numpy>=1.23",
+    "ase>=3.22",
+    "pymatgen>=2023.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.urls]
+Homepage = "https://github.com/YuxuanTang2002/Limenia"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
