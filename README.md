@@ -1,5 +1,5 @@
 <h1>
-  <img src="assets/logo.svg" alt="Limenia logo" width="48">
+  <img src="assets/logo.svg" alt="Limenia logo" width="60">
   Limenia
 </h1>
 
