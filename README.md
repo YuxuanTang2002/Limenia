@@ -18,4 +18,4 @@ and can be integrated into computational workflows.
 
 ## License
 
-Limenia is licensed under the [MIT License](LICENSE)
+Limenia is licensed under the [MIT License](LICENSE).
